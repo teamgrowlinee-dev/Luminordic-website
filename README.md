@@ -7,6 +7,12 @@ Static mirror of `https://www.luminordic.com/` with the Askly chatbot removed.
 - Build command: none
 - Publish directory: `.`
 
+## Render Chatbot
+
+- Chatbot service lives in [`chatbot`](./chatbot).
+- Root [`render.yaml`](./render.yaml) deploys that folder to Render as a separate Node service.
+- Widget loader URL after deploy: `https://YOUR-RENDER-URL/widget/loader.js`
+
 ## Notes
 
 - This is a static copy of a WordPress/WooCommerce site.
