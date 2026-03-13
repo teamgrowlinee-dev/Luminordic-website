@@ -1,0 +1,148 @@
+html.yith-ywgc-add-new-gift-card-modal-opened,
+body.yith-ywgc-add-new-gift-card-modal-opened {
+    overflow: hidden;
+}
+
+@media ( min-width: 480px) {
+    #yith-ywgc-add-new-gift-card-modal-container .yith-ywgc-add-new-gift-card-modal {
+        min-width: 320px;
+    }
+}
+
+#yith-ywgc-add-new-gift-card-modal-container{
+    z-index: 10000;
+}
+
+.yith-ywgc-add-new-gift-card-modal-overlay {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.yith-ywgc-add-new-gift-card-modal-wrapper {
+    display: none;
+}
+
+.yith-ywgc-add-new-gift-card-modal-inner{
+    padding-bottom: 2em;
+}
+
+.yith-ywgc-add-new-gift-card-modal-opened .yith-ywgc-add-new-gift-card-modal-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    height: auto;
+    background: rgba(255, 255, 255, 1);
+    z-index: 120;
+    border-radius: 18px;
+    display: block;
+    overflow: hidden;
+    margin: 1% 0;
+}
+
+#yith-ywgc-add-new-gift-card-modal-container .yith-ywgc-add-new-gift-card-modal-close {
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    line-height: 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#yith-ywgc-add-new-gift-card-modal-container .yith-ywgc-add-new-gift-card-modal-close:after {
+    content: '×';
+    display: block;
+    color: inherit;
+    font-size: 1.5rem;
+    line-height: 12px;
+    opacity: 0.5;
+    transition: all ease 0.2s;
+}
+
+#yith-ywgc-add-new-gift-card-modal-container .yith-ywgc-add-new-gift-card-modal-close:hover:after {
+    opacity: 1;
+}
+
+.yith-ywgc-add-new-gift-card-modal-content-wrapper {
+    margin-top: -25px;
+}
+
+.yith-ywgc-add-new-gift-card-modal-wrapper-region {
+    height: 100%;
+    width: 90%;
+    margin-left: 5%;
+    padding: 1em 0;
+}
+
+.yith-ywgc-add-new-gift-card-modal-wrapper-region::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    border-radius: 10px;
+    background-color: #ebebeb;
+}
+
+.yith-ywgc-add-new-gift-card-modal-wrapper-region::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ebebeb;
+    border-radius: 10px;
+}
+
+.yith-ywgc-add-new-gift-card-modal-wrapper-region::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);*/
+    background-color: #555;
+}
+
+.ywgc-custom-design-modal-wrapper {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.ywgc-add-new-gift-card-form{
+    text-align: center;
+    max-width: 500px;
+    background-color: #f2f2f2;
+    padding: 30px 15px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ywgc-link-gift-card-submit-button{
+    height: 43px;
+    padding: 10px 20px;
+    margin: 0;
+    width: 80%;
+}
+
+#ywgc-link-code{
+    width: 80%;
+    margin-bottom: 15px;
+}
+
+.ywgc-add-new-gift-card-modal-title{
+    text-align: center;
+    padding-top: 15px;
+}
+
+.ywgc-add-new-gift-card-label {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+@media screen and ( max-width: 600px) {
+    .yith-ywgc-add-new-gift-card-modal-opened .yith-ywgc-add-new-gift-card-modal-wrapper {
+        width: 90%;
+    }
+}

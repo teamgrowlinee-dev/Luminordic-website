@@ -1,0 +1,56 @@
+/*
+	Theme Name: Bonamore
+	Theme URI: http://bonamore.ee
+	Author: Raido Martinson
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+*,
+*:after,
+*:before {
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    *zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+	color:#444;
+	text-decoration:none;
+}
+a:hover {
+	color:#444;
+}
+a:focus {
+	outline:0;
+}
+a:hover,
+a:active {
+	outline:0;
+}
+button:focus {
+	outline:0;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/

@@ -1,0 +1,103 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+/* CSS */
+.custom-dropdown {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.selected-option {
+    cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+.dropdown-list {
+    position: absolute;
+    max-height: 500px;
+    list-style: none;
+    padding: 0;
+    margin: 0 !important;
+    border: 1px solid #ccc;
+    border-radius: 0 0 5px 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: none;
+    overflow-y: auto;
+    /*overflow-y: hidden;*/
+    z-index: 1000;
+}
+
+#load-more-btn.hidden {
+    display: none;
+}
+
+.dropdown-list.active {
+    display: block;
+}
+
+.dropdown-list .pudo {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s;
+    margin: 5px 15px;
+    font-size: 14px;
+}
+
+.dropdown-list .group-pudo {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin: 5px 15px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.dropdown-list .pudo:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-list #load-more-btn {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.wc_shipping_dpd_terminals {
+    position: relative;
+}
+.dropdown-list {
+    width: 100%;
+    left: 0;
+}
+
+@media (max-width: 768px) {
+    .select2-selection__rendered {
+        white-space: normal!important;
+        overflow: visible!important;
+        text-overflow: unset!important;
+        word-break: break-word!important;
+    }
+}
+
+/*@media (max-width:480px) {*/
+/*    .wc_shipping_dpd_terminals {*/
+/*        position: relative;*/
+/*    }*/
+/*    .dropdown-list {*/
+/*        width: 100%;*/
+/*        left: 0;*/
+/*    }*/
+/*}*/
+
+/*.custom-dropdown .select2 {*/
+/*    width: 100%!important;*/
+/*}*/
