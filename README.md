@@ -10,5 +10,6 @@ Static mirror of `https://www.luminordic.com/` with the Askly chatbot removed.
 ## Notes
 
 - This is a static copy of a WordPress/WooCommerce site.
+- The Netlify clone now loads the chatbot widget from `https://luminordic-chatbot.onrender.com/widget/loader.js`.
 - Dynamic features such as cart, checkout, account pages, search, and some forms depend on the original backend and may not work on Netlify without extra backend work.
 - SEO tags and canonical URLs still point to the original Luminordic domain and should be updated before going live on a new production domain.
